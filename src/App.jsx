@@ -157,7 +157,7 @@ export default function App() {
   const renderNav = () => (
     <div className="topbar">
       <div className="brand" style={{ cursor: "pointer" }} onClick={() => navigate("/home")}>
-        <img src="/mnt/data/logo.jpeg" alt="logo" />
+        <img src="/logo.jpeg" alt="logo" />
         <div>
           <h1>Sri Ramdutha Constructions</h1>
           <p>Precision • Integrity • Tomorrow's Homes</p>
