@@ -215,7 +215,7 @@ export default function App() {
                     <input placeholder="Name" value={appointment.name} onChange={(e) => setAppointment({ ...appointment, name: e.target.value })} />
                     <input placeholder="Phone" value={appointment.phone} onChange={(e) => setAppointment({ ...appointment, phone: e.target.value })} />
                     <input placeholder="Location" value={appointment.location} onChange={(e) => setAppointment({ ...appointment, location: e.target.value })} />
-                    <select value={appointment.service} onChange={(e) => setAppointment({ ...appointment, service: e.target.value })}>
+                    <select value={appointment.service} onChange={(e) => setAppointment({ ...appointment, service: e.target.value })} style={{ background: '#0f1720', color: '#e6eef6'}}>
                       <option value="">-- Select Service (optional) --</option>
                       <option>Residential Houses & Villas</option>
                       <option>Residential Apartments</option>
