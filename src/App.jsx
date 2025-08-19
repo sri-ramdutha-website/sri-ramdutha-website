@@ -264,7 +264,7 @@ export default function App() {
             <div className="projects-grid" style={{ marginTop: 18 }}>
               {[1, 2, 3, 4, 5, 6].map((i) => (
                 <div className="project-card" key={i} onClick={() => alert("Replace this with project detail modal — project " + i)}>
-                  <img src="/proj1.jpg" alt="Project 1" />
+                  <img src="/proj1.jpeg" alt="Project 1" />
                   <div className="project-meta">Project #{i} • Residential</div>
                 </div>
               ))}
