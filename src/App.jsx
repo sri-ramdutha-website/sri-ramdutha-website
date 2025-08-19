@@ -378,7 +378,7 @@ export default function App() {
             <h2>About Sri Ramdutha Constructions Pvt. Ltd.</h2>
             <div className="about-grid" style={{ marginTop: 12 }}>
               <div>
-                <img src="/md.jpg" alt="MD" className="md-photo" />
+                <img src="/md.jpeg" alt="MD" className="md-photo" />
               </div>
 
               <div>
