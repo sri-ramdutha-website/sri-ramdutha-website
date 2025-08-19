@@ -261,10 +261,11 @@ export default function App() {
             <h2>Projects — Portfolio</h2>
             <p style={{ color: "var(--muted)" }}>A curated selection of residential and commercial projects demonstrating our workmanship and attention to detail. (Placeholder gallery — you can replace images later.)</p>
 
+            const projectImages=["/proj1.jpg","/proj2.jpg","/proj3.jpg"]
             <div className="projects-grid" style={{ marginTop: 18 }}>
-              {[1, 2, 3, 4, 5, 6].map((i) => (
+              {projectImages.map((src, i) => (
                 <div className="project-card" key={i} onClick={() => alert("Replace this with project detail modal — project " + i)}>
-                  <img src={`https://images.unsplash.com/photo-1${i}600?auto=format&fit=crop&w=1200&q=80`} alt={`Project ${i}`} onError={(e) => { e.currentTarget.src = "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=60" }} />
+                  <img src={src} alt={`Project ${i + 1}`} />
                   <div className="project-meta">Project #{i} • Residential</div>
                 </div>
               ))}
