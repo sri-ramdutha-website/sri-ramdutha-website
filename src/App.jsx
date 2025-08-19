@@ -261,11 +261,10 @@ export default function App() {
             <h2>Projects — Portfolio</h2>
             <p style={{ color: "var(--muted)" }}>A curated selection of residential and commercial projects demonstrating our workmanship and attention to detail. (Placeholder gallery — you can replace images later.)</p>
 
-            const projectImages=["/proj1.jpg","/proj2.jpg","/proj3.jpg"]
             <div className="projects-grid" style={{ marginTop: 18 }}>
               {projectImages.map((src, i) => (
                 <div className="project-card" key={i} onClick={() => alert("Replace this with project detail modal — project " + i)}>
-                  <img src={src} alt={`Project ${i + 1}`} />
+                  <img src="/proj1.jpg" alt="Project 1" />
                   <div className="project-meta">Project #{i} • Residential</div>
                 </div>
               ))}
