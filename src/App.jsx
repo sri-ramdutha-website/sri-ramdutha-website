@@ -262,12 +262,10 @@ export default function App() {
             <p style={{ color: "var(--muted)" }}>A curated selection of residential and commercial projects demonstrating our workmanship and attention to detail. (Placeholder gallery — you can replace images later.)</p>
 
             <div className="projects-grid" style={{ marginTop: 18 }}>
-              {[1, 2, 3, 4].map((i) => (
+              {[1, 2].map((i) => (
                 <div className="project-card" key={i} onClick={() => alert("Replace this with project detail modal — project " + i)}>
                   <img src="/proj1.jpeg" alt="Project 1" />
                   <div className="project-meta">Project #{i} • Residential</div>
-                  <img src="/proj2.jpeg" alt="Project 2" />
-                  <div className="project-meta">Project #{i} • Government</div>
                 </div>
               ))}
             </div>
