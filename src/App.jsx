@@ -186,7 +186,7 @@ export default function App() {
             <div className="hero">
               <div className="hero-left">
                 <span className="kicker">Since 2021 • Tirupati</span>
-                <h2 className="headline">Dream..? Start with us</h2>
+                <h2 className="headline">Dreams into Reality</h2>
                 <p className="lead">We partner with homeowners and developers to translate ideas into beautifully executed spaces. Every rupee you invest is managed with care, transparent processes and disciplined supervision — giving you both peace of mind and lasting value.</p>
 
                 <div className="bullets">
