@@ -99,7 +99,7 @@ export default function App() {
       .contact-grid{grid-template-columns:1fr}
     }
     @media (max-width:640px){
-      .nav{display:none}
+      .nav{display:flex;flex-direction:column;align-items:center;gap:10px}
       .page-wrap{padding:18px}
     }
     `;
